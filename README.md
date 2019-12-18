@@ -24,10 +24,10 @@
 
 a.修改第14行中的data.csv存放位置(目前暂时使用绝对路径，未来将打包以便于使用)
 
-a. 第21行中"msg=birthdayNotice_job(bir_name,int(bir_mon),int(bir_day),futureDays=3)"
+b. 第21行中"msg=birthdayNotice_job(bir_name,int(bir_mon),int(bir_day),futureDays=3)"
 中的futureDays参数值为自定义提醒时间（默认为提前3天提醒准备生日礼物，提前1天提醒准备生日祝福。需要修改的话可自行于birthday_notice.py的函数中修改）
 
-b. 可修改第34行“schedule.every().day.at("10:00").do(run)”，自定义每天消息时间；
+c. 可修改第34行“schedule.every().day.at("10:00").do(run)”，自定义每天消息时间；
 
 4.运行‘python run.py’
  
