@@ -5,6 +5,7 @@ import schedule
 import time
 import requests
 import datetime
+import os
 
 def run_birthday():
     print(time.strftime("\n%Y-%m-%d: ") + "生日定时任务开始\n")
