@@ -11,7 +11,9 @@ def run_birthday():
     # 创建保存生日推送信息的list
     bir_msg_list = []
     # 分析保存于csv数据文件中的阳历生日信息
-    with open(r"data.csv", "r", encoding='UTF-8') as f_birth:
+    # 获取当前Python程序的绝对路径
+    dirname, filename = os.path.split(os.path.abspath(__file__))
+    with open(os.path.join(dirname, "data.csv"), "r", encoding='UTF-8') as f_birth:
         all_line_birth = f_birth.readlines()
         # 逐行读取生日信息
         for i in range(len(all_line_birth)):
