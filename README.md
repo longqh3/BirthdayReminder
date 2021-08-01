@@ -16,7 +16,7 @@
 2.运行‘python run.py’即可(若需要云服务器后台运行可应用nohup)
 
 #### 详细/自定义使用步骤：
-1.进入run.py修改第28行url为自己的Server酱url(申请地址见http://sc.ftqq.com/3.version)
+1.进入run.py修改第28行url为自己的Server酱url(申请地址见https://sct.ftqq.com/)
 
 2.打开data.csv添加寿星的阳历生日列表：姓名,月,日。以英文逗号隔开，多个寿星换行。注意“月日”格式为“1”型，不是“01”型。
 
