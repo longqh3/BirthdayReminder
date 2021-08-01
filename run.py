@@ -29,7 +29,7 @@ def run_birthday():
         # 直接调用Server酱服务进行微信推送
         # Server酱URL
         url = 'your own Server酱 URL'
-        d = {'text':datetime.datetime.now().strftime('%Y年%m月%d日')+"生日提醒信息",
+        d = {'title':datetime.datetime.now().strftime('%Y年%m月%d日')+"生日提醒信息",
              'desp':"\n\n".join(bir_msg_list)}
         requests.post(url, data = d)
 
