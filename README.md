@@ -35,7 +35,7 @@ Server酱发送的消息内容为Markdown格式，可进行消息内容的个性
 #### 待完善功能
 1.添加农历生日提醒功能
 
-2.在云服务器建立相应服务，以SaaS的形式提供多用户生日提醒
+2.在云服务器建立相应服务，以SaaS的形式为多用户提供自定义的生日提醒信息
 
 #### 参考代码与资料
 DingtalkNotice：https://github.com/yuzg667/DingtalkNotice
